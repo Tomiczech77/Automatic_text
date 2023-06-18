@@ -20,3 +20,7 @@ function printText(){
 }
 
 printText();
+
+speedOriginal.addEventListener("input", function(event) {
+    delay = 500 / event.target.value;
+});
